@@ -5,9 +5,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Profile</title>
+        <title>Laravel</title>
     </head>
     <body>
-        <h1>Myニュース作</h1>
+        <h1>My プロフィール</h1>
     </body>
 </html>
