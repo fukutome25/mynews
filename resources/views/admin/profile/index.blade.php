@@ -3,11 +3,11 @@
 
 
 {{-- admin.blade.phpの@yield('title')に'プロフィールの新規作成'を埋め込む --}}
-@section('title', 'プロフィールの編集')
+@section('title', 'プロフィール更新/削除')
 
 @section('content')
 <div class="form-group row">
-                <form action="{{ route('admin.profile.edit') }}" method="post" enctype="multipart/form-data">
+                <form action="{{ route('admin.profile.update') }}" method="post" enctype="multipart/form-data">
                     <div class="form-group row">       
                 <label class="col-md-2">氏名(name)</label>
                         <div class="col-md-10">

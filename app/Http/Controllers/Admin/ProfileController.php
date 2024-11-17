@@ -63,6 +63,6 @@ class ProfileController extends Controller
         // 該当するデータを上書きして保存する
         $profile->fill($profile_form)->save();
 
-        return redirect('admin/profile');
+        return redirect()->route('admin.profile.edit', ['id' => $profile->id]);
     }
 }
